@@ -1,0 +1,71 @@
+<div data-ng-controller="LivitController">
+    <section ng-if="video" class="video">
+        <div class="video-content">
+            <iframe width="1000" height="563" src="https://www.youtube.com/embed/B6zVzWU95Sw" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="jumbotron text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 data-fittext=".9" data-fittext-max="62px">A Liv.it Cover <s>Letter</s> Landing Page.</h1>
+                    <p class="col-lg-10 col-lg-offset-1">
+                        A little birdy told me <a href="http://liv.it/career/#op-51034-ui--front-end-developer" target="_blank">Liv.it is looking for a badass front-end developer</a> to join their ranks in Bali. My first thought was, "I'm going to make 'em a video!" So, I did. Check it out:
+                    </p>
+                    <p class="video-thumb">
+                        <img ng-click="showVideo()" src="https://slack.global.ssl.fastly.net/23491/img/landing_video_thumb.png" alt="A Liv.it Cover Video" />
+                    </p>
+                    <div class="col-xs-12">
+                        <p>
+                            <small class="text-muted">Want to know more?</small>
+                        </p>
+                        <div data-ng-controller="SmoothScrollController">
+                            <p>
+                                <button class="btn btn-peter-river btn-wide" type="button">Download Resume</button>
+                                <button ng-click="gotoAnchor('scroll-down')" class="btn btn-default btn-wide" type="button">Scroll Down</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="scroll-down" class="content">
+        <div id="travel" class="bg bg-peter-river bg-border-top overview">
+            <div class="container">
+                <div class="row">
+                    <div class="text col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-0">
+                        <img class="visible-xs-block center-block" src="images/icons/svg/car.svg" alt="I'm A Traveler" onerror="this.onerror=null; this.src='/images/icons/png/car.png'">
+                        <h3 data-fittext=".9" data-fittext-max="40px">I'm a <span class="hidden-xs">Full-Time</span> Traveler</h3>
+                        <p>Meeting new people, experiencing new cultures, seeing new places, and eating eclectic foods are things that bring the most happiness to my life. In order to do those things, I decided to ditch a permanent address and live my life on the road, <a href="http://www.abeardacrossamerica.com" target="_blank">one city at a time</a>.</p>
+                        <a data-ng-href="{{linkPrefix}}{{pageLinks.traveler}}" class="btn btn-wide">
+                        Check Out Travels
+                    </a>
+                    </div>
+                    <div class="visuals col-xs-12 col-md-4 hidden-xs">
+                        <img class="left" src="images/icons/svg/trip-bag.svg" alt="I'm A Full-Time Traveler" onerror="this.onerror=null; this.src='/images/icons/png/trip-bag.png'">
+                        <img class="right" src="images/icons/svg/car.svg" alt="I'm A Full-Time Traveler" onerror="this.onerror=null; this.src='/images/icons/png/car.png'">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg bg-wisteria bg-border-top overview">
+            <div class="container">
+                <div class="row">
+                    <div class="text col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-0">
+                        <img class="visible-xs-block center-block" src="images/icons/svg/user-interface.svg" alt="I'm A Traveler" onerror="this.onerror=null; this.src='/images/icons/png/user-interface.png'">
+                        <h3 data-fittext=".9" data-fittext-max="40px">I'm a <span class="hidden-xs">Front-End</span> Developer</h3>
+                        <p>Using today's most cutting edge, front-end technologies, I help make complex websites and web apps intuitive, minimalistic, and scalable. I also contribute to the <a href="https://github.com/yaboi/" target="_blank">open source community</a> whenever possible.</p>
+                        <a data-ng-href="{{linkPrefix}}{{pageLinks.developer}}" class="btn btn-wide">
+                        Dig Around Development
+                    </a>
+                    </div>
+                    <div class="visuals col-xs-12 col-md-4 hidden-xs">
+                        <img class="left" src="images/icons/svg/macbook.svg" alt="I'm A Front-End Developer" onerror="this.onerror=null; this.src='/images/icons/png/macbook.png'">
+                        <img class="right" src="images/icons/svg/user-interface.svg" alt="I'm A Front-End Developer" onerror="this.onerror=null; this.src='/images/icons/png/user-interface.png'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

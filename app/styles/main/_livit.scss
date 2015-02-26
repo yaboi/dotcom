@@ -1,0 +1,48 @@
+/*
+    Document   : app/styles/main/_livit.scss
+    Created on : 2015-02-26 03:23 AM
+    Author     : yaboi
+    Description: Custom styles for Passion Driven Portfolio:livit.html
+*/
+
+//== Custom livit.html Styling
+//
+//##
+
+.video-thumb img {
+    cursor: pointer;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    .video-content {
+        position: absolute;
+        top: 5%;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* Small devices */
+@media (min-width: $screen-sm-min) {
+    
+}
+
+/* Medium devices */
+@media (min-width: $screen-md-min) { 
+    
+}
+
+/* Large devices */
+@media (min-width: $screen-lg-min) { 
+
+}
