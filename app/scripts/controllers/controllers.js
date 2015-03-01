@@ -67,10 +67,9 @@ angular.module('app.controllers', [
 
 }).controller('LivitController', function($scope) {
     $scope.video = false;
-    $scope.showVideo = function () {
-        $scope.video = true;
-    }
-    
+    $scope.toggleVideo = function() {
+        $scope.video = !$scope.video;
+    };
 }).controller('SmoothScrollController', function($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function(anchor) {
         var elm = document.getElementById(anchor);
