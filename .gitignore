@@ -1,9 +1,3 @@
-#app
-#test
-
-dist
-newrelic.js
-
 .tmp
 .sass-cache
 

@@ -17,12 +17,14 @@ $icon-font-path: "../bower_components/flat-ui-sass/vendor/assets/fonts/flat-ui/"
 @import "main/backgrounds";
 @import "main/buttons-inverse";
 @import "main/buttons-variants";
+@import "main/footer";
 @import "main/navbars-inverse";
 @import "main/padding";
-@import "main/footer";
+
 
 // Custom CSS
-@import "main/global";
-@import "main/main";
 @import "main/developer";
+@import "main/global";
+@import "main/livit";
+@import "main/main";
 @import "main/traveler";
