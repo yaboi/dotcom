@@ -19,6 +19,12 @@
     <section>
         <div class="container">
             <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 text-center">
+                    <div class="well">
+                        <p>Would you like your very own copy of my resume?</p>
+                        <a href="https://docs.google.com/document/d/1YTCd3m3nXaktTCzOhR9sNHNkDaMZmgi5hlEPBHGBZws/edit?usp=sharing" class="btn btn-wide btn-primary" target="_blank">Download It From Google Drive</a>
+                    </div>
+                </div>
                 <div class="col-xs-10 col-xs-offset-1 text-center">
                     <hr>
                     <div class="padding-top-sm">
@@ -58,8 +64,8 @@
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
                     <div class="well">
-                        <p>If you like what you see, download it!</p>
-                        <a href="https://docs.google.com/document/d/1YTCd3m3nXaktTCzOhR9sNHNkDaMZmgi5hlEPBHGBZws/edit?usp=sharing" class="btn btn-wide btn-primary" target="_blank">Download This Resume From Google Drive</a>
+                        <p>My resume, now in printed form!</p>
+                        <a href="https://docs.google.com/document/d/1YTCd3m3nXaktTCzOhR9sNHNkDaMZmgi5hlEPBHGBZws/edit?usp=sharing" class="btn btn-wide btn-primary" target="_blank">Print A Copy From Google Drive</a>
                     </div>
                 </div>
                 <div class="col-xs-12">
@@ -69,7 +75,7 @@
                         <span ng-repeat="ci in contactInfo" class="text-muted">
                             <a ng-if="ci.url" href="{{ci.url}}" target="_blank">{{ci.name}}</a>
                             <span ng-if="!ci.url">{{ci.name}}</span>
-                            {{$last ? '' : ' | '}}
+                        {{$last ? '' : ' | '}}
                         </span>
                     </p>
                 </div>
