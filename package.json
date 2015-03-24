@@ -27,11 +27,12 @@
   ],
   "homepage": "http://tylergoelz.com",
   "dependencies": {
-    "morgan": "~1.5.1",
-    "gzippo": "~0.2.0",
     "express": "~4.10.8",
+    "gzippo": "~0.2.0",
+    "morgan": "~1.5.1",
     "newrelic": "~1.13.4",
     "nodetime": "~0.8.15",
+    "prerender-node": "^1.2.1",
     "serve-static": "~1.8.1"
   },
   "devDependencies": {
