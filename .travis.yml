@@ -1,12 +1,19 @@
 language: node_js
 node_js:
-  - '0.10'
+- '0.10'
 before_script:
-  - 'npm install'
-  - 'npm install -g grunt-cli'
-  - 'npm update'
-  - 'bower install'
-  - 'bower update'
-  - 'gem install compass'
-  - 'gem update'
-  = 'grunt build'
+- npm install
+- npm install -g grunt-cli
+- npm update
+- bower install
+- bower update
+- gem install compass
+- gem update
+- grunt build
+deploy:
+  provider: heroku
+  api_key:
+    secure: SoP2d3npRO9Q2mjOZcvLidRU32AWfjFm/jWTxtLgxN39qSNnmVeHZtgJEdYy8QgZakc5P/IYkEtnvtIk8oLysdtl4Ykk9lIyJL/X2BliFtiXQvF6g/hMRl/0V3O3GIGf4lsNUpCRLGpYZiSD4L+KDJQ4OyQvv5cVc+7l8vANwkU=
+  app: tylergoelz-www
+  on:
+    repo: yaboi/Passion-Driven-Portfolio
