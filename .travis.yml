@@ -10,7 +10,7 @@ before_script:
 - bower install
 - gem update
 - gem install compass
-- grunt build
+- grunt build --force
 deploy:
   provider: heroku
   api_key:
