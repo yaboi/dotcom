@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/yaboi/Passion-Driven-Portfolio.svg?branch=master)](https://travis-ci.org/yaboi/Passion-Driven-Portfolio)
 #A Passion Driven Portfolio
 
 The Passion Driven Portfolio showcases what a portfolio site for a **passion driven** professional might look like.
