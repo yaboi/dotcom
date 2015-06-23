@@ -6,6 +6,7 @@ before_script:
 - bower install
 deploy:
   provider: heroku
+  buildpack: nodejs
   api_key:
     secure: tFj5lNdsAKdTNmGdepP6RE+GxV6vbioUmAgk9y86TSDLzfDTvmJ9ql1l47ugk9Ylhmss6AZZng90fFdcu5acia4En3O7DiQoEFY/qhjyNpOqeMERPIwgr7Vd/xQIcu3763SEs3w6Clo5PIHaHX1JAUp2eb5QcmsCEf0mX0DabbQ=
   app:
