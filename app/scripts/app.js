@@ -1,11 +1,8 @@
 'use strict';
 /**
- * @ngdoc overview
- * @name passionDrivenPortfolio
- * @description
- * # passionDrivenPortfolio
- *
- * Main module of the application.
+ * @ngdoc app
+ * @name dotcom
+ * @description app for dotcom
  */
 angular.module('passionDrivenPortfolio', [
     'ngAnimate',
@@ -18,7 +15,9 @@ angular.module('passionDrivenPortfolio', [
     'ui.bootstrap',
     'ngFitText',
 
-    'app.controllers'
+    'ui.controllers',
+    'ui.directives',
+    'ui.services'
 
 ]).config([
     '$routeProvider',

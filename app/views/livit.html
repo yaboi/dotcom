@@ -1,29 +1,15 @@
 <div data-ng-controller="LivitController">
-    <section ng-if="video" class="video-container" ng-click="toggleVideo();">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-lg-10 col-lg-offset-1">
-                    <div class="video-content">
-                        <button type="button" class="btn close" ng-click="toggleVideo();">
-                            <span class="fui-cross"></span> Close Video
-                        </button>
-                        <iframe src="http://player.vimeo.com/video/120912760?autoplay=1" width="100%" frameborder="0" autoplay="true" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="jumbotron text-center">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 data-fittext=".9" data-fittext-max="62px">Welcome, friends from Liv.it</h1>
+                    <h1 data-fittext=".9" data-fittext-max="62px">Welcome, friends from {{ companyName }}</h1>
                     <p>
-                        Instead of submitting a cover letter, I decided to submit a video. Check it out below:
+                        Instead of just submitting a resume, I decided to submit a video, as well. Check it out below:
                     </p>
                 </div>
-                <div class="col-xs-12 video-thumb padding-vertical-sm">
-                    <img ng-click="toggleVideo();" src="/images/livit/landing_video_thumb.png" alt="A Liv.it Cover Video" class="center-block img-responsive" />
+                <div class="col-xs-12 padding-vertical-sm">
+                    <video-player video-placholder="/images/livit/landing_video_thumb.png" video-placeholder-alt="A Liv.it Cover Video" video-src="http://player.vimeo.com/video/120912760?autoplay=1"></video-player>
                 </div>
                 <div class="col-xs-12">
                     <p>
