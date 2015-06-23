@@ -8,7 +8,7 @@ exports.config = {
     /**
      * Array of application names.
      */
-    app_name: ['Passion Driven Portfolio'],
+    app_name: ['dotcom'],
     /**
      * Your New Relic license key.
      */

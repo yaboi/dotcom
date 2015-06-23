@@ -1,9 +1,9 @@
 {
-    "name": "passion-driven-portfolio",
+    "name": "dotcom",
     "version": "0.2.1",
     "repository": {
         "type": "git",
-        "url": "git@github.com:yaboi/Passion-Driven-Portfolio.git"
+        "url": "git@github.com:yaboi/dotcom.git"
     },
     "authors": {
         "name": "Tyler Goelz",
