@@ -1,31 +1,18 @@
 language: node_js
 node_js:
-  - '0.10'
+- '0.10'
 before_script:
-  - 'npm install -g bower grunt-cli'
-  - 'bower install'
-
-#language: node_js
-#node_js:
-#  - "0.12"
-#  - "0.11"
-#  - "0.10"
-#  - "0.8"
-#  - "0.6"
-#  - "iojs"
-#before_script:
-#- npm install
-#- npm install -g bower
-#- npm install -g grunt-cli
-#- npm install -g karma
-#- bower update
-#- bower install
-#- gem update
-#- gem install compass
-#- grunt build
-#deploy:
-#  provider: heroku
-#  api_key:
-#    secure: SoP2d3npRO9Q2mjOZcvLidRU32AWfjFm/jWTxtLgxN39qSNnmVeHZtgJEdYy8QgZakc5P/IYkEtnvtIk8oLysdtl4Ykk9lIyJL/X2BliFtiXQvF6g/hMRl/0V3O3GIGf4lsNUpCRLGpYZiSD4L+KDJQ4OyQvv5cVc+7l8vANwkU=
-#  app: tylergoelz-www
-#  on: master
+- npm install -g bower grunt-cli
+- bower install
+deploy:
+  provider: heroku
+  api_key:
+    secure: tFj5lNdsAKdTNmGdepP6RE+GxV6vbioUmAgk9y86TSDLzfDTvmJ9ql1l47ugk9Ylhmss6AZZng90fFdcu5acia4En3O7DiQoEFY/qhjyNpOqeMERPIwgr7Vd/xQIcu3763SEs3w6Clo5PIHaHX1JAUp2eb5QcmsCEf0mX0DabbQ=
+  app:
+    master: tylergoelz-www
+    staging: tylergoelz-www
+  on:
+    repo: yaboi/dotcom
+    branch: 
+        master: master
+        staging: staging
