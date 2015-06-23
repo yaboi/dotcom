@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/yaboi/dotcom.svg?branch=master)](https://travis-ci.org/yaboi/dotcom)
+[![Build Status](https://travis-ci.org/yaboi/dotcom.svg?branch=staging)](https://travis-ci.org/yaboi/dotcom)
 #A Passion Driven Portfolio
 
 The Passion Driven Portfolio showcases what a portfolio site for a **passion driven** professional might look like.
