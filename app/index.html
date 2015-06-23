@@ -37,10 +37,11 @@
     <!-- endbuild -->
 </head>
 
-<body id="body" data-ng-controller="PassionDrivenController" itemscope itemtype="http://schema.org/Person">
+<body id="body" data-ng-controller="PassionDrivenController" itemscope itemprop="person" itemtype="http://schema.org/Person">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    
     <div style="display: none;">
         <span itemprop="name">Tyler Goelz</span>
         <span itemprop="givenName">Tyler</span>
@@ -49,15 +50,10 @@
         <span itemprop="gender">male</span>
         <span itemprop="jobTitle">Full-Time Traveler & Front-End Developer</span>
         <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-            <span itemprop="brand">Campus Job</span>
-            <img itemprop="logo" alt="Campus Job" src="//s3.amazonaws.com/tcj-live/assets/logo-color.png">
-        </div>
-        <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
             <span itemprop="brand">Beard & Fedora</span>
             <img itemprop="logo" alt="Tyler Goelz" src="images/developer/projects/beard_and_fedora/logo-rs.png">
             <span itemprop="owns">WriteOn, Hopstack</span>
         </div>
-        <span itemprop="colleague">Joel Serino</span>
         <span itemprop="brand">The Face of Tyler Goelz, Inc.</span>
         <span itemprop="description">Get to know Tyler Goelz at www.tylergoelz.com. I'm a full-time traveler & front-end developer that believes the key to living a passion driven lifestyle is a balance in work-life happiness.</span>
         <img itemprop="image" alt="Tyler Goelz" src="images/logo.png">
