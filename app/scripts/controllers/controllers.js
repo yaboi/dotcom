@@ -45,8 +45,8 @@ controllers.controller('HeaderController', function ($scope, $location) {
     };
     $scope.isCollapsed = true;
 });
-controllers.controller('MainController', function ($scope) {});
-controllers.controller('TravelerController', function ($scope) {});
+controllers.controller('MainController', function () {});
+controllers.controller('TravelerController', function () {});
 controllers.controller('DeveloperController', function ($scope) {
     $scope.projects = [
         //Add Campus Job
@@ -76,36 +76,36 @@ controllers.controller('DeveloperController', function ($scope) {
         }
     ];
 });
-controllers.controller('ResumeController', function ($scope, $sce) {
+controllers.controller('ResumeController', function ($scope) {
     $scope.experiences = [
         {
             company: 'Campus Job',
-            url: 'www.campusjob.com',
+            url: 'http://www.campusjob.com',
             startDate: 'February 2015',
-            endDate: 'Present',
+            endDate: 'June 2015',
             description: 'Campus Job is the largest online marketplace for college students to find part-time jobs and internships. Started in 2014, they have already grown to a user-base of 77,000+ students.',
-            title: 'Front-End Developer, Full-Time Contractor',
+            title: 'Front-End Developer, Contractor',
             details: [
-                'Early stage Front-End Developer working directly alongside CTO to enhance a increasingly successful platform.',
-                'Champion a public-facing student profile page for 77,000+ students, complete with inline editing capabilities.'
+                'Own creation of a public-facing student profile page for 77,000+ students.',
+                'Accompany Campus Job through Y Combinator ending in a $9m raise.',
+                'Work directly alongside CTO to enhance and improve an increasingly successful platform.'
             ]
         },
         {
             company: 'WriteOn.io',
-            url: 'www.writeon.io',
+            url: 'http://writeon.io',
             startDate: 'October 2014',
             endDate: 'Present',
             description: 'WriteOn is a clean, minimalistic writing tool built for authors by authors, A passion project built by Beard & Fedora (see below.)',
             title: 'Front-End Developer, Co-Founder',
             details: [
                 'Launched private beta in three months using Lean UX methodology.',
-                'Responsible for marketing site, email marketing, ideation on product development, and branding.',
-                'Maintain a from-scratch brand identity to symbolize an open, clean piece of loose-leaf paper.'
+                'Responsible for user acquisition & engagement, email marketing, social media marketing, ideation on product development, and branding.'
             ]
         },
         {
             company: 'Beard & Fedora',
-            url: 'www.beardandfedora.com',
+            url: 'http://www.beardandfedora.com',
             startDate: 'January 2012',
             endDate: 'Present',
             description: 'Two guys that love to build things, write things, and experience life.',
@@ -131,22 +131,25 @@ controllers.controller('ResumeController', function ($scope, $sce) {
         }
     ];
     $scope.technologies = [
-        'AngularJS',
+        'Angular',
+        'jQuery/javascript',
         'HTML5',
-        'Sass',
-        'jQuery',
-        'Django',
+        'Sass/CSS3',
         'Github',
-        'Grunt',
+        'Grunt/Gulp',
         'Bower',
-        'Yeoman',
-        'WordPress',
-        'Adobe CC'
+        'Django',
+        'Codio',
+        'Adobe '
     ];
     $scope.contactInfo = [
         {
             url: 'mailto:tyler@tylergoelz.com',
             name: 'Email Me'
+        },
+        {
+            url: 'http://www.tylergoelz.com',
+            name: 'Portfolio'
         },
         {
             url: 'https://github.com/yaboi',
@@ -167,9 +170,13 @@ controllers.controller('ResumeController', function ($scope, $sce) {
         {
             url: 'https://www.linkedin.com/in/tylergoelz',
             name: 'LinkedIn'
+        },
+        {
+            url: '',
+            name: '727-342-0319'
         }
     ];
-})
+});
 controllers.controller('LivitController', function ($scope) {
     $scope.video = false;
     $scope.toggleVideo = function () {
