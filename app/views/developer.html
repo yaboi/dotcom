@@ -11,7 +11,6 @@
             </div>
         </div>
     </section>
-
     <section class="wheelhouse">
         <div class="container">
             <div class="row">
@@ -65,7 +64,6 @@
             </div>
         </div>
     </section>
-
     <section class="padding-vertical-lg">
         <div class="container">
             <div class="row">
@@ -76,57 +74,19 @@
                 </div>
             </div>
         </div>
-        <div class="hero">
+        <div class="hero" ng-repeat="project in projects">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 content">
-                        <a href="http://writeon.io/" class="thumbnail">
-                            <img src="images/developer/projects/writeon/logo.png" alt="">
+                        <a href="{{project.url}}" class="thumbnail">
+                            <img src="{{project.thumbnail}}" alt="">
                         </a>
-                        <h3>WriteOn</h3>
-                        <p><a href="http://writeon.io/" target="_blank">WriteOn</a> is a passion project built by Beard & Fedora. The app is a clean, minimalistic writing tool built for authors by authors.</p>
-                        <a href="http://writeon.io/" class="btn" role="button">Sign Up For Private Beta</a>
+                        <h3>{{project.title}}</h3>
+                        <p>{{project.description}}</p>
+                        <a href="{{project.url}}" class="btn" role="button">{{project.cta}}</a>
                     </div>
                     <div class="col-md-5 image">
-                        <img src="images/developer/projects/writeon/large.gif" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 content">
-                        <a href="https://github.com/BeardandFedora/" class="thumbnail">
-                            <img src="images/developer/projects/beard_and_fedora/logo.png" alt="">
-                        </a>
-                        <h3>Beard & Fedora</h3>
-                        <p>
-                            A few years ago, in a detached garage in Downtown St. Pete, a business partnership came to fruition between two best friends. Since then, we've built a <a href="http://www.sproutcamp.co/" target="_blank">startup accelerator for misfits</a>, a LeanUX toolset, a distributed software development team, a <a href="https://github.com/BeardandFedora/HopStack" target="_blank">full front end development stack</a>, <a href="http://writeon.io/" target="_blank">WriteOn</a>, and more. We travel together, write together, and build things to change the world together.
-                        </p>
-                        <a href="https://github.com/BeardandFedora/" class="btn" role="button">Check It Out On Github</a>
-                    </div>
-                    <div class="col-md-5 image">
-                        <img src="images/developer/projects/beard_and_fedora/large.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 content">
-                        <a href="http://www.abeardacrossamerica.com/" class="thumbnail">
-                            <img src="images/developer/projects/abaa/logo.png" alt="">
-                        </a>
-                        <h3>A Beard Across America</h3>
-                        <p>
-                            <a href="http://www.abeardacrossamerica.com/" target="_blank">A Beard Across America</a> is a passion project inspired by my trip across America at the end of 2013. The project incorporates everything in my wheelhouse, including product development, scalability, and customer validation.
-                        </p>
-                        <a href="http://www.abeardacrossamerica.com/" class="btn" role="button">Check Out #ABAA</a>
-                    </div>
-                    <div class="col-md-5 image">
-                        <img src="images/developer/projects/abaa/large.png" alt="">
+                        <img src="{{project.image}}" alt="">
                     </div>
                 </div>
             </div>
