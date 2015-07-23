@@ -47,34 +47,17 @@ controllers.controller('HeaderController', function ($scope, $location) {
 });
 controllers.controller('MainController', function () {});
 controllers.controller('TravelerController', function () {});
-controllers.controller('DeveloperController', function ($scope) {
-    $scope.projects = [
-        //Add Campus Job
-        {
-            title: 'WriteOn',
-            description: 'WriteOn is a passion project built by Beard & Fedora. The app is a clean, minimalistic writing tool built for authors by authors.',
-            image: 'images/developer/projects/writeon/large.gif',
-            thumbnail: 'images/developer/projects/writeon/logo.png',
-            url: 'http://writeon.io/',
-            cta: 'Sign Up For Private Beta'
-        },
-        {
-            title: 'Beard & Fedora',
-            description: 'A few years ago, in a detached garage in Downtown St. Pete, a business partnership came to fruition between two best friends. Since then, we\'ve built a startup accelerator for misfits, a LeanUX toolset, a distributed software development team, a full front end development stack, WriteOn, and more. We travel together, write together, and build things to change the world together.',
-            image: 'images/developer/projects/beard_and_fedora/large.png',
-            thumbnail: 'images/developer/projects/beard_and_fedora/logo.png',
-            url: 'http://www.beardandfedora.com/',
-            cta: 'Check It Out'
-        },
-        {
-            title: 'A Beard Across America',
-            description: 'A Beard Across America is a passion project inspired by my trip across America at the end of 2013. The project incorporates everything in my wheelhouse, including product development, scalability, and customer validation.',
-            image: 'images/developer/projects/abaa/large.png',
-            thumbnail: 'images/developer/projects/abaa/logo.png',
-            url: 'http://www.beardandfedora.com/',
-            cta: 'Get Your Copy Today'
-        }
-    ];
+controllers.controller('DeveloperController', function () {
+//     $scope.projects = [
+//         {
+//             title: '',
+//             description: '',
+//             image: '',
+//             thumbnail: '',
+//             url: '',
+//             cta: ''
+//         }
+//     ];
 });
 controllers.controller('ResumeController', function ($scope) {
     $scope.experiences = [
