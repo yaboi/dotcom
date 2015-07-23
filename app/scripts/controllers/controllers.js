@@ -52,7 +52,7 @@ controllers.controller('DeveloperController', function ($scope) {
         //Add Campus Job
         {
             title: 'WriteOn',
-            description: '<a href="http://writeon.io/" target="_blank">WriteOn</a> is a passion project built by Beard & Fedora. The app is a clean, minimalistic writing tool built for authors by authors.',
+            description: 'WriteOn is a passion project built by Beard & Fedora. The app is a clean, minimalistic writing tool built for authors by authors.',
             image: 'images/developer/projects/writeon/large.gif',
             thumbnail: 'images/developer/projects/writeon/logo.png',
             url: 'http://writeon.io/',
@@ -60,7 +60,7 @@ controllers.controller('DeveloperController', function ($scope) {
         },
         {
             title: 'Beard & Fedora',
-            description: 'A few years ago, in a detached garage in Downtown St. Pete, a business partnership came to fruition between two best friends. Since then, we\'ve built a <a href="http://www.sproutcamp.co/" target="_blank">startup accelerator for misfits</a>, a LeanUX toolset, a distributed software development team, a <a href="https://github.com/BeardandFedora/HopStack" target="_blank">full front end development stack</a>, <a href="http://writeon.io/" target="_blank">WriteOn</a>, and more. We travel together, write together, and build things to change the world together.',
+            description: 'A few years ago, in a detached garage in Downtown St. Pete, a business partnership came to fruition between two best friends. Since then, we\'ve built a startup accelerator for misfits, a LeanUX toolset, a distributed software development team, a full front end development stack, WriteOn, and more. We travel together, write together, and build things to change the world together.',
             image: 'images/developer/projects/beard_and_fedora/large.png',
             thumbnail: 'images/developer/projects/beard_and_fedora/logo.png',
             url: 'http://www.beardandfedora.com/',
@@ -68,7 +68,7 @@ controllers.controller('DeveloperController', function ($scope) {
         },
         {
             title: 'A Beard Across America',
-            description: '<a href="http://www.abeardacrossamerica.com/" target="_blank">A Beard Across America</a> is a passion project inspired by my trip across America at the end of 2013. The project incorporates everything in my wheelhouse, including product development, scalability, and customer validation.',
+            description: 'A Beard Across America is a passion project inspired by my trip across America at the end of 2013. The project incorporates everything in my wheelhouse, including product development, scalability, and customer validation.',
             image: 'images/developer/projects/abaa/large.png',
             thumbnail: 'images/developer/projects/abaa/logo.png',
             url: 'http://www.beardandfedora.com/',
