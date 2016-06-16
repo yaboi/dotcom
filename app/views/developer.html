@@ -41,6 +41,8 @@
                 </div>
             </div>
         </div>
+        <!-- Move projects from controller to directve -->
+        <!--<project url="test" thumbnail-src="images/developer/projects/writeon/logo.pn" title="test title" desc="test description" cta="test-cta" image-src="images/developer/projects/writeon/large.gif"></project>-->
         <div class="hero" ng-repeat="project in projects track by $index" ng-show="{{project.thumbnail.length > 0 || project.title.length > 0 || project.description.length > 0 || project.cta.text.length > 0 || project.image.length > 0}}">
             <div class="container">
                 <div class="row">

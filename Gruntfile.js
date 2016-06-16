@@ -189,9 +189,10 @@ module.exports = function(grunt) {
                     '<%= yeoman.dist %>/scripts/{,*/}*.js',
                     '<%= yeoman.dist %>/{,*/}*.js',
                     '<%= yeoman.dist %>/styles/{,*/}*.css',
-                    '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}',
-                    '<%= yeoman.dist %>/images/**/**/*.{png,jpg,jpeg,gif,webp,svg}',
+                    // '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}',
+                    // '<%= yeoman.dist %>/images/**/**/*.{png,jpg,jpeg,gif,webp,svg}',
                     '<%= yeoman.dist %>/styles/fonts/*'
+                    
                 ]
             }
         },
@@ -333,7 +334,7 @@ module.exports = function(grunt) {
         concurrent: {
             server: ['compass:server'],
             test: ['compass'],
-            dist: ['compass:dist', 'imagemin', 'svgmin']
+            dist: ['compass:dist', 'newer:imagemin', 'newer:svgmin']
         }
         //Comment out Karma until it's actually in use.
         // Test settings

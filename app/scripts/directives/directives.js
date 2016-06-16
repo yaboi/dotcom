@@ -53,7 +53,6 @@ directives.directive('resumeCta', function () {
 });
 directives.directive('project', function () {
     return {
-        replace: true,
         restrict: 'AE',
         template: function (elem, attr) {
             var template = '';
@@ -61,12 +60,12 @@ directives.directive('project', function () {
             template += '    <div class="container">';
             template += '        <div class="row">';
             template += '            <div class="col-md-7 content">';
-            template += '                <a href="' + attr.url + '" class="thumbnail">';
+            template += '                <a ng-href="' + attr.url + '" class="thumbnail">';
             template += '                    <img src="' + attr.thumbnailSrc + '" alt="">';
             template += '                </a>';
             template += '                <h3>' + attr.title + '</h3>';
-            template += '                <p>' + attr.description + '</p>';
-            template += '                <a href="' + attr.url + '" class="btn" role="button">' + attr.cta + '</a>';
+            template += '                <p>' + attr.desc + '</p>';
+            template += '                <a ng-href="' + attr.url + '" class="btn" role="button">' + attr.cta + '</a>';
             template += '            </div>';
             template += '            <div class="col-md-5 image">';
             template += '                <img src="' + attr.imageSrc + '" alt="">';
