@@ -47,17 +47,134 @@ controllers.controller('HeaderController', function ($scope, $location) {
 });
 controllers.controller('MainController', function () {});
 controllers.controller('TravelerController', function () {});
-controllers.controller('DeveloperController', function () {
-//     $scope.projects = [
-//         {
-//             title: '',
-//             description: '',
-//             image: '',
-//             thumbnail: '',
-//             url: '',
-//             cta: ''
-//         }
-//     ];
+controllers.controller('DeveloperController', function ($scope) {
+    $scope.skills = [{
+        svg: 'images/icons/svg/flask.svg',
+        image: '/images/icons/png/flask.png',
+        title: 'Cutting Edge Technology',
+        description: 'Whether it\'s stable, cutting edge technology in client work or experimental, bleeding edge technology in personal projects, I\'m constantly reading about, learning, contrinbuting to, and implementing the most modern technologies.',
+        extra: ''
+    },{
+        svg: 'images/icons/svg/infinity-loop.svg',
+        image: '/images/icons/png/infinity-loop.png',
+        title: 'Lean UX & Product Development',
+        description: 'A Front-End Developers job of aligning interface and business needs is never done.',
+        extra: ''
+    },{
+        svg: 'images/icons/svg/spaceship.svg',
+        image: '/images/icons/png/spaceship.png',
+        title: 'Scalability, From Code-To-Product',
+        description: 'From modern scaffolding tools to intuitive interface design, I build products and apps that scale to the needs of the user, as well as future developers.',
+        extra: ''
+    },{
+        svg: 'images/icons/svg/retina-ready.svg',
+        image: '/images/icons/png/retina-ready.png',
+        title: 'Customer Validation',
+        description: 'From startups to corporations, knowing your customer is the first step to any successful app or product. Once you\'ve validated your customer, you can build a successful web app, website, or product.',
+        extra: ''
+    }];
+
+    $scope.projects = [{
+        url: 'https://www.giftstarter.com?ref=tylergoelz',
+        image: 'images/developer/projects/giftstarter/large.png',
+        thumbnail:'images/developer/projects/giftstarter/logo.png',
+        title: 'GiftStarter',
+        description: 'While working with GiftStarter, I have rebuilt the app experience with a standardized, functioning front-end stack delivering higher conversions. We also graduated from 500 Startups as the 7th fastest growing company of the batch.',
+        cta: {
+            url: 'https://www.giftstarter.com?ref=tylergoelz',
+            text: 'Give Something Thoughtful'
+        }
+    }, {
+        url: 'https://www.wayup.com?ref=tylergoelz',
+        image: 'images/developer/projects/wayup/large.png',
+        thumbnail:'images/developer/projects/wayup/logo.png',
+        title: 'WayUp',
+        description: 'I was contracted by WayUp to create a public-facing student profile page for, at the time 77k+ college students. WayUp is now used by half a million college students. I accompanied WayUp through Y Combinator where they graduated with a $7.8M Series A round.',
+        cta: {
+            url: 'https://www.wayup.com?ref=tylergoelz',
+            text: 'Get Hired Today'
+        }
+    }, {
+        url: 'https://www.organicbeardsupply.com',
+        image: 'images/developer/projects/obs/large.png',
+        thumbnail:'images/developer/projects/obs/logo.png',
+        title: 'Organic Beard Supply',
+        description: 'I built Organic Beard Supply from an idea to a staple business found at local markets and online. It\'s grown to be a completely functioning business with products, customers, and community support.',
+        cta: {
+            url: 'https://www.organicbeardsupply.com?ref=tylergoelz',
+            text: 'Shop Beard Care'
+        }
+    }, {
+        url: 'http://writeon.io?ref=tylergoelz',
+        image: 'images/developer/projects/writeon/large.gif',
+        thumbnail:'images/developer/projects/writeon/logo.png',
+        title: 'WriteOn',
+        description: 'WriteOn originated as a passion project and quickly became a product gaining traction an users. WriteOn is a clean, refined, minimal writing experience stripped of distraction.',
+        cta: {
+            url: 'http://writeon.io?ref=tylergoelz',
+            text: 'Start Writing Now'
+        }
+    }, {
+        url: 'http://variant.ninja?ref=tylergoelz',
+        image: 'images/developer/projects/variant_ninja/large.png',
+        thumbnail:'images/developer/projects/variant_ninja/logo.png',
+        title: 'Variant Ninja',
+        description: 'WriteOn originated as a passion project and quickly became a product gaining traction an users. WriteOn is a clean, refined, minimal writing experience stripped of distraction.',
+        cta: {
+            url: 'http://variant.ninja?ref=tylergoelz',
+            text: 'Build Converting Landing Pages'
+        }
+    }];
+    $scope.pastProjects = [{
+       image: 'images/developer/projects/sproutcamp/logo.png',
+       title: 'SproutCamp',
+       cta: {
+           url: 'http://www.sproutcamp.co?ref=tylergoelz',
+           text: 'Learn More'
+       }
+    }, {
+        image: 'images/developer/projects/hashtag_creative/logo.png',
+        title: 'Hashtag Creative',
+        cta: {
+            url: 'http://hashtagcreative.co?ref=tylergoelz',
+            text: 'Learn More'
+        }
+    }, {
+        image: 'images/developer/projects/lifetime/logo.png',
+        title: 'Life Time Fitness',
+        cta: {
+            url: 'https://www.lifetimefitness.com?ref=tylergoelz',
+            text: 'Learn More'
+        }
+    }, {
+        image: 'images/developer/projects/redwood/logo.png',
+        title: 'Redwood Agile',
+        cta: {
+            url: 'https://angel.co/redwood-agile?ref=tylergoelz',
+            text: 'Learn More'
+        }
+    }, {
+        image: 'images/developer/projects/leanlabs/logo.png',
+        title: 'Lean Labs',
+        cta: {
+            url: 'https://www.lean-labs.com/work/appsfreedom?ref=tylergoelz',
+            text: 'Learn More'
+        }
+    }, {
+        image: 'images/developer/projects/activprayer/logo.png',
+        title: 'ActivPrayer',
+        cta: {
+            url: 'http://www.activprayer.com?ref=tylergoelz',
+            text: 'Learn More'
+        }
+    }, {
+        image: 'images/developer/projects/gffb/logo.png',
+        title: 'Fit For Birth',
+        cta: {
+            url: 'http://getfitforbirth.com/?ref=tylergoelz',
+            text: 'Learn More'
+        }
+    }];
 });
 controllers.controller('ResumeController', function ($scope) {
     $scope.experiences = [

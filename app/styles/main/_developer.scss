@@ -47,6 +47,27 @@
         }
     }
     
+    .projects-recent {
+        @extend .text-center;
+        
+        .project {
+            @extend .col-xs-6;
+            @extend .col-md-3;
+            
+            .thumbnail {
+                
+                .caption {
+                    a[role="button"] {
+                        @extend .btn;
+                        @extend .btn-sm;
+                        @extend .btn-wisteria-inverse
+                    }
+                }
+            }
+        }
+        
+    }
+    
     /* Open Source Everything!!! */
     .open-source {
         @extend .padding-vertical-lg;

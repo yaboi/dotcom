@@ -67,10 +67,10 @@ module.exports = function(grunt) {
         // The actual grunt server settings
         connect: {
             options: {
-                port: 3000,
+                port: 8080,
                 // Change this to '0.0.0.0' to access the server from outside.
                 hostname: '0.0.0.0',
-                livereload: 4000,
+                livereload: false,
                 // Modrewrite rule, connect.static(path) for each path in target's base
                 middleware: function(connect, options) {
                     var optBase = (typeof options.base === 'string') ? [options.base] : options.base;

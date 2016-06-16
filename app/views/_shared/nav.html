@@ -14,11 +14,19 @@
             </div>
             <div class="navbar-collapse" collapse="isCollapsed">
                 <ul class="nav navbar-nav navbar-right">
-                    <li ng-class="{ active: isActive('{{pageLinks.base}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.base}}">Home</a>
+                    <li ng-class="{ active: isActive('{{pageLinks.base}}')}">
+                        <a data-ng-href="{{linkPrefix}}{{pageLinks.base}}">Home</a>
                     </li>
-                    <li ng-class="{active: isActive('{{pageLinks.traveler}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.traveler}}">Traveler</a>
+                    <!--<li ng-class="{active: isActive('{{pageLinks.traveler}}')}">
+                        <a data-ng-href="{{linkPrefix}}{{pageLinks.traveler}}">Traveler</a>-->
+                    <!--</li>-->
+                    <li ng-class="{active: isActive('{{pageLinks.developer}}')}">
+                        <a data-ng-href="{{linkPrefix}}{{pageLinks.developer}}">Experience</a>
                     </li>
-                    <li ng-class="{active: isActive('{{pageLinks.developer}}')}"><a data-ng-href="{{linkPrefix}}{{pageLinks.developer}}">Developer</a>
+                    <li>
+                        <a href="https://angel.co/tylergoelz" target="_blank">
+                            Angel
+                        </a>
                     </li>
                 </ul>
             </div>
