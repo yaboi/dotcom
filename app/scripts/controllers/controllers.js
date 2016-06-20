@@ -79,7 +79,7 @@ controllers.controller('DeveloperController', function ($scope) {
         image: 'images/developer/projects/giftstarter/large.png',
         thumbnail:'images/developer/projects/giftstarter/logo.png',
         title: 'GiftStarter',
-        description: 'While working with GiftStarter, I have rebuilt the app experience with a standardized, functioning front-end stack delivering higher conversions. We also graduated from 500 Startups as the 7th fastest growing company of the batch.',
+        description: 'While working with GiftStarter, I helped rebuild the app experience with a standardized, higher converting front-end stack. We graduated from 500 Startups as the 7th fastest growing company of the batch.',
         cta: {
             url: 'https://www.giftstarter.com?ref=tylergoelz',
             text: 'Give Something Thoughtful'
@@ -89,7 +89,7 @@ controllers.controller('DeveloperController', function ($scope) {
         image: 'images/developer/projects/wayup/large.png',
         thumbnail:'images/developer/projects/wayup/logo.png',
         title: 'WayUp',
-        description: 'I was contracted by WayUp to create a public-facing student profile page for, at the time 77k+ college students. WayUp is now used by half a million college students. I accompanied WayUp through Y Combinator where they graduated with a $7.8M Series A round.',
+        description: 'WayUp contracted me to create a public-facing student profile page for 77k+ college students - now used by half a million college students. I accompanied WayUp through Y Combinator where they graduated with a $7.8M Series A round.',
         cta: {
             url: 'https://www.wayup.com?ref=tylergoelz',
             text: 'Get Hired Today'
@@ -102,14 +102,14 @@ controllers.controller('DeveloperController', function ($scope) {
         description: 'I built Organic Beard Supply from an idea to a staple business found at local markets and online. It\'s grown to be a completely functioning business with products, customers, and community support.',
         cta: {
             url: 'https://www.organicbeardsupply.com?ref=tylergoelz',
-            text: 'Shop Beard Care'
+            text: 'Shop Organic Beard Care'
         }
     }, {
         url: 'http://writeon.io?ref=tylergoelz',
         image: 'images/developer/projects/writeon/large.gif',
         thumbnail:'images/developer/projects/writeon/logo.png',
         title: 'WriteOn',
-        description: 'WriteOn originated as a passion project and quickly became a product gaining traction an users. WriteOn is a clean, refined, minimal writing experience stripped of distraction.',
+        description: 'WriteOn originated as a passion project and quickly became a product with traction and users. WriteOn is a clean, refined, minimal writing experience stripped of distraction.',
         cta: {
             url: 'http://writeon.io?ref=tylergoelz',
             text: 'Start Writing Now'
@@ -119,7 +119,7 @@ controllers.controller('DeveloperController', function ($scope) {
         image: 'images/developer/projects/variant_ninja/large.png',
         thumbnail:'images/developer/projects/variant_ninja/logo.png',
         title: 'Variant Ninja',
-        description: 'WriteOn originated as a passion project and quickly became a product gaining traction an users. WriteOn is a clean, refined, minimal writing experience stripped of distraction.',
+        description: 'Variant Ninja was created out of necessity. After pin-pointing redundant workflow while building high conversion landing pages, Variant Ninja was built to iterate quickly while adding conversion tracking, lead nurturing, and more.',
         cta: {
             url: 'http://variant.ninja?ref=tylergoelz',
             text: 'Build Converting Landing Pages'
