@@ -177,95 +177,86 @@ controllers.controller('DeveloperController', function ($scope) {
     }];
 });
 controllers.controller('ResumeController', function ($scope) {
+    $scope.googleDriveLink = 'https://drive.google.com/file/d/0B_oLYF0iNvi4VmF2cU1TT2hiS2c/view?usp=sharing';
     $scope.experiences = [
         {
-            company: 'Campus Job',
-            url: 'http://www.campusjob.com',
+            company: 'GiftStarter',
+            url: 'giftstarter.com',
+            braggingImage: 'images/resume/bragging/500.png',
+            braggingUrl: 'http://500.co/startup/giftstarter/?ref=tylergoelz',
+            startDate: 'August 2015',
+            endDate: 'Present',
+            description: 'GiftStarter was the 7th fastest growing startup in Batch14 of 500 Startups and gives users an easy, intuitive way to give gifts together.',
+            title: 'Front-End Engineer, Product Developer',
+            details: [
+                'Rebuilt front-end with a standardized, modern stack delivering higher conversion.',
+                'Accompanied GiftStarter through Batch14 of 500 Startups.',
+                'Automated social distribution for in-house and partner content.'
+            ]
+        },
+        {
+            company: 'WayUp',
+            url: 'wayup.com',
+            braggingImage: 'images/resume/bragging/ycomb.png',
+            braggingUrl: 'https://www.ycombinator.com/?ref=tylergoelz',
             startDate: 'February 2015',
             endDate: 'June 2015',
-            description: 'Campus Job is the largest online marketplace for college students to find part-time jobs and internships. Started in 2014, they have already grown to a user-base of 77,000+ students.',
+            description: 'WayUp is the largest online marketplace for college students to find full-time jobs, part-time jobs, and internships. Started in 2014, they have already grown to a user-base of half a million students.',
             title: 'Front-End Developer, Contractor',
             details: [
-                'Own creation of a public-facing student profile page for 77,000+ students.',
-                'Accompany Campus Job through Y Combinator ending in a $9m raise.',
+                'Own creation of public-facing student profile page for half a million students.',
+                'Accompany Campus Job through Y Combinator ending in a $7.8m Series A round.',
                 'Work directly alongside CTO to enhance and improve an increasingly successful platform.'
             ]
         },
         {
-            company: 'WriteOn.io',
-            url: 'http://writeon.io',
+            company: 'WriteOn',
+            url: 'writeon.io',
             startDate: 'October 2014',
             endDate: 'Present',
-            description: 'WriteOn is a clean, minimalistic writing tool built for authors by authors, A passion project built by Beard & Fedora (see below.)',
+            description: 'WriteOn is a clean, minimal writing tool built for authors by authors. Made with &heart; by Canso.',
             title: 'Front-End Developer, Co-Founder',
             details: [
                 'Launched private beta in three months using Lean UX methodology.',
-                'Responsible for user acquisition & engagement, email marketing, social media marketing, ideation on product development, and branding.'
+                'User acquisition & engagement, email marketing, social media marketing, ideation on product development, and branding.'
             ]
-        },
-        {
-            company: 'Beard & Fedora',
-            url: 'http://www.beardandfedora.com',
-            startDate: 'January 2012',
+        },{
+            company: 'Organic Beard Supply',
+            url: 'organicbeardsupply.com',
+            startDate: 'July 2015',
             endDate: 'Present',
-            description: 'Two guys that love to build things, write things, and experience life.',
-            title: 'Front-End Developer, Co-Builder, Co-Writer, Co-Experiencer',
+            description: 'Organic Beard Supply is on a journey to provide men with sustainable, earth-friendly beard care.',
+            title: 'Founder, Product Developer',
             details: [
-                'SproutCamp - A mentor-driven accelerator program that provides entrepreneurs the chance to turn their ideas into a validated business. (Beard & Fedora)',
-                'A Beard Across America - A passion project inspired by a trip across America. (Beard)',
-                'HopStack - A beautifully crafted application stack for software teams. (Beard & Fedora)'
-            ]
-        },
-        {
-            company: 'Lifestyle Family Fitness',
-            url: '',
-            startDate: 'June 2008',
-            endDate: 'October 2012',
-            description: 'With 50+ clubs, Lifestyle Family Fitness was one of the largest fitness organizations in the Southeast.',
-            title: 'Lead Front-End & UX Developer',
-            details: [
-                'Introduced UX principles and best practices while overseeing front-end team.',
-                'Championed a Personal Training Scheduler: An Outlook style Personal Training appointment scheduler with ability to create events, check-in appointments and sell agreements.',
-                'Increased membership sales by overseeing development of online, a la carte membership creation system.'
+                'Built Shopify eCommerce platform with recurring payments, optimized user funnels, A/B testing, and tracking - including heat maps, content analytics, and Google Analytics.',
+                'Created online & in-person brand awareness throughout local community in less than six months.'
             ]
         }
     ];
     $scope.technologies = [
         'Angular',
-        'jQuery/javascript',
-        'HTML5',
-        'Sass/CSS3',
-        'Github',
-        'Grunt/Gulp',
-        'Bower',
-        'Django',
-        'Codio',
-        'Adobe '
+        'MVVM',
+        'jQuery',
+        'javascript',
+        'Semantic HTML',
+        'Sass/Less'
     ];
     $scope.contactInfo = [
         {
             url: 'mailto:tyler@tylergoelz.com',
-            name: 'Email Me'
+            name: 'Email'
         },
         {
             url: 'http://www.tylergoelz.com',
-            name: 'Portfolio'
+            name: 'Website'
         },
         {
             url: 'https://github.com/yaboi',
             name: 'Github'
         },
         {
-            url: 'http://www.twitter.com/tylergoelz',
-            name: 'Twitter'
-        },
-        {
-            url: 'http://www.facebook.com/ILikeTylerGoelz',
-            name: 'Facebook'
-        },
-        {
-            url: 'http://www.medium.com/@tylergoelz',
-            name: 'Blog'
+            url: 'https://www.angel.co/tylergoelz',
+            name: 'Angel'
         },
         {
             url: 'https://www.linkedin.com/in/tylergoelz',
