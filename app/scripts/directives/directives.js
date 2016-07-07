@@ -41,7 +41,7 @@ directives.directive('resumeCta', function () {
         replace: true,
         template: function (elem, attr) {
             var template = '';
-            template += '   <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 text-center">';
+            template += '   <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">';
             template += '       <div class="well">';
             template += '            <p>' + attr.headline + '</p>';
             template += '            <a href="' + attr.link + '" class="btn btn-wide btn-primary" target="_blank">' + attr.btnText + '</a>';
