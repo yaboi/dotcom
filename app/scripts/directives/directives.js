@@ -15,7 +15,7 @@ directives.directive('videoPlayer', function () {
         template: function (elem, attr) {
             var template = '';
             template += '<div class="video-thumb">';
-            template += '   <img ng-click="toggleVideo();" src="' + attr.videoPlacholder + '" alt="' + attr.videoPlaceholderAlt + '" class="center-block img-responsive" />';
+            template += '   <img ng-click="toggleVideo();" src="' + attr.videoPlacholder + '" alt="' + attr.videoPlaceholderAlt + '" class="center-block img-responsive img-rounded" />';
             template += '   <div ng-if="video" class="video-container" ng-click="toggleVideo();">\
                                 <div class="container">\
                                     <div class="row">\
