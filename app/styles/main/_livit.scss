@@ -63,7 +63,6 @@
 }
 
 .video-thumb img {
-    @extend .thumbnail;
     
     @include box-shadow(0px 10px 50px 10px rgba(0,0,0,0.15));
     
