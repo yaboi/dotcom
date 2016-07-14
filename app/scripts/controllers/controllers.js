@@ -289,6 +289,20 @@ controllers.controller('UplabsController', function ($scope) {
     };
     $scope.companyName = 'Uplabs';
 });
+controllers.controller('DyrtController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'The Dyrt';
+});
+controllers.controller('AdviseController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'Advise';
+});
 controllers.controller('SmoothScrollController', function ($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function (anchor) {
         var elm = document.getElementById(anchor);
