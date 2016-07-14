@@ -275,6 +275,20 @@ controllers.controller('LivitController', function ($scope) {
     };
     $scope.companyName = 'Liv.it';
 });
+controllers.controller('VorayController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'Voray';
+});
+controllers.controller('UplabsController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'Uplabs';
+});
 controllers.controller('SmoothScrollController', function ($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function (anchor) {
         var elm = document.getElementById(anchor);
