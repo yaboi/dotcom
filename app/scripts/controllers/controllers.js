@@ -296,12 +296,12 @@ controllers.controller('DyrtController', function ($scope) {
     };
     $scope.companyName = 'The Dyrt';
 });
-controllers.controller('AdviseController', function ($scope) {
+controllers.controller('AdsviseController', function ($scope) {
     $scope.video = false;
     $scope.toggleVideo = function () {
         $scope.video = !$scope.video;
     };
-    $scope.companyName = 'Advise';
+    $scope.companyName = 'Adsvise';
 });
 controllers.controller('SmoothScrollController', function ($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function (anchor) {
