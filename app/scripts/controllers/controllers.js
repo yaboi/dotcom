@@ -303,6 +303,20 @@ controllers.controller('AdsviseController', function ($scope) {
     };
     $scope.companyName = 'Adsvise';
 });
+controllers.controller('ScalioController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'Scal.io';
+});
+controllers.controller('NegevController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'Negev';
+});
 controllers.controller('SmoothScrollController', function ($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function (anchor) {
         var elm = document.getElementById(anchor);

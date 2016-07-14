@@ -28,7 +28,8 @@ angular.module('passionDrivenPortfolio', [
         $locationProvider.html5Mode(true);
         routes = [
             'main', 'traveler', 'developer',
-            'livit', 'relivit', 'resume', 'uplabs', 'voray', 'thedyrt', 'adsvise',
+            'resume',
+            'adsvise', 'livit', 'negev', 'relivit', 'scalio', 'thedyrt', 'uplabs', 'voray',
             '404', 'main_legacy',
         ];
         setRoutes = function (route) {
