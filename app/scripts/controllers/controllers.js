@@ -317,6 +317,48 @@ controllers.controller('NegevController', function ($scope) {
     };
     $scope.companyName = 'Negev';
 });
+controllers.controller('BetterUpController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'BetterUp';
+});
+controllers.controller('GithubController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'Github';
+});
+controllers.controller('PastureMapController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'PastureMap';
+});
+controllers.controller('SidelineSwapController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'SidelineSwap';
+});
+controllers.controller('StickerMuleController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'StickerMule';
+});
+controllers.controller('SumoMeController', function ($scope) {
+    $scope.video = false;
+    $scope.toggleVideo = function () {
+        $scope.video = !$scope.video;
+    };
+    $scope.companyName = 'SumoMe';
+});
 controllers.controller('SmoothScrollController', function ($scope, $location, anchorSmoothScroll) {
     $scope.gotoAnchor = function (anchor) {
         var elm = document.getElementById(anchor);

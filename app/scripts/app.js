@@ -30,6 +30,7 @@ angular.module('passionDrivenPortfolio', [
             'main', 'traveler', 'developer',
             'resume',
             'adsvise', 'livit', 'negev', 'relivit', 'scalio', 'thedyrt', 'uplabs', 'voray',
+            'betterup', 'github', 'pasturemap', 'sidelineswap', 'stickermule', 'sumome',
             '404', 'main_legacy',
         ];
         setRoutes = function (route) {
