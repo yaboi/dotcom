@@ -1,0 +1,30 @@
+<div data-ng-controller="SidelineSwapController">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 data-fittext=".9" data-fittext-max="62px">Welcome, friends from {{ companyName }}!</h1>
+                    <p>
+                        Anyone can submit a plain ol' <a href="/resume">resume</a>, but aside from meeting someone in person, there's no better way to get a feel for their personality than by a video submission.
+                    </p>
+                    <p><small>Note: The video is about 2 and a half minutes long, but c'mon, you're looking to hire me - it's worth the watch ; )</small></p>
+                </div>
+                <div class="col-xs-12 padding-vertical-sm">
+                    <video-player 
+                        video-placholder="/images/job_applications/sidelineswap/thumb.png" 
+                        video-placeholder-alt="Tyler Goelz - {{ companyName }} Application Video"
+                        video-src="http://player.vimeo.com/video/176237841?autoplay=1">
+                    </video-player>
+                    <p><small style="font-size: .7em;">(click the bearded fella above to play video)</small></p>
+                </div>
+               <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+                   <div class="well">
+                        <p>Want to know more about my work experience?</p>
+                        <a href="/resume" class="btn btn-wide btn-primary" type="button">Check Out My Resume</a>
+                        <a href="mailto:tyler@tylergoelz.com" class="btn btn-wide btn-default" type="button">Or, Send Me An Email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
